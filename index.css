@@ -20,6 +20,19 @@ html{
 section{
     padding: 2rem 9%;
 }
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background: #333;
+    color: #fff;
+    padding: .9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+.btn :hover{
+    background-color: #e84393;
+}
 header{
     position: fixed;
     top: 0; left: 0; right: 0;
@@ -69,10 +82,27 @@ header .fa-bars{
     border: i¿1rem solid rgba(0,0,0,.3;
     display: none;
 }
-
-
-
-
+.Home{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(../biofilts/images/hombre-uniforme-trabajo-arreglando-fregadero-cocina-llave-inglesa_961147-44668.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.Home .content{
+    max-width: 50rem;
+}
+.Home .content h3{
+    font-size: 6rem;
+    color: #333;
+}
+.Home .content span{
+    font-size: 3.5rem;
+    color: #333;
+    padding: 1rem 0;
+    line-height: 1.5;
+}
 
 
 
